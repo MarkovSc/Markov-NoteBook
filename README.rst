@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Example: Basic Sphinx project for Read the Docs
 ===============================================
 
@@ -85,3 +86,14 @@ Read the Docs tutorial
 
 To get started with Read the Docs, you may also refer to the `Read the Docs tutorial <https://docs.readthedocs.io/en/stable/tutorial/>`__.
 It provides a full walk-through of building an example project similar to the one in this repository.
+=======
+Template for the Read the Docs tutorial
+=======================================
+
+This GitHub template includes fictional Python library
+with some basic Sphinx docs.
+
+Read the tutorial here:
+
+https://docs.readthedocs.io/en/stable/tutorial/
+>>>>>>> parent of 46b9376 (Second)
