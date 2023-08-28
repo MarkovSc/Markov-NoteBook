@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Markov 的个人算法笔记
 =======================================
-
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+从事业务的方向包括
+1. 广告算法风控
+2. 激励增长
+3. 电商投放增长
