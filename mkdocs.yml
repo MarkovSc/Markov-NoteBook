@@ -4,6 +4,7 @@ theme:
   highlightjs: true
 plugins:
   - search
+  - autorefs
   - mkdocstrings:
       handlers:
         # See: https://mkdocstrings.github.io/python/usage/
@@ -14,3 +15,16 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+
+nav:
+  - 数学基础: 
+    - 'Math_Related/组合优化.md'
+  - 机器学习:
+    - 'Home.md'
+  - 深度学习:
+    - 'Home.md'
+  - 广告和推荐:
+    - 广告系统: 'Home.md'
+  - 因果推断:
+    - 'Home.md'
+
