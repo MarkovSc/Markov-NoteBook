@@ -17,14 +17,46 @@ markdown_extensions:
   - admonition
 
 nav:
-  - 数学基础: 
-    - 'Math_Related/组合优化.md'
-  - 机器学习:
-    - 'Home.md'
-  - 深度学习:
-    - 'Home.md'
-  - 广告和推荐:
-    - 广告系统: 'Home.md'
   - 因果推断:
-    - 'Home.md'
-
+    - 从传统计量看因果推断: 'Causal_Inference/Summary.md'
+    - 从机器学习看因果推断: 'Causal_Inference/Summary.md'
+    - 从强化学习看因果推断: 'Causal_Inference/Summary.md'
+    - 因果推断的复杂问题: 'Causal_Inference/Summary.md'
+    - 业务实践: 'Causal_Inference/Summary.md'
+  - 广告和推荐:
+    - 广告系统架构: 'usage.md'
+    - 广告预估-精排CTR模型: 'usage.md'
+    - 广告预估-CVR模型: 'usage.md'
+    - 广告预估-粗排和混排: 'usage.md'
+    - RTB和广告出价: 'usage.md'
+    - 广告投放: 'usage.md'
+    - 推荐系统架构: 'usage.md'
+    - 留存时长模型: 'usage.md'
+  - 强化学习:
+    - SequentialDecision : 'usage.md'
+    - 从MDP到值函数模型: 'usage.md'
+    - 策略模型: 'usage.md'
+    - 离线强化学习: 'usage.md'
+  - 风控模型:
+    - 风控架构: 'usage.md'
+    - 无监督模型: 'usage.md'
+    - 半监督和有监督模型: 'usage.md'
+    - 图模型: 'usage.md'
+  - 数学基础: 
+    - 函数和积分: 'usage.md'
+    - 概率论和随机过程: 'usage.md'
+    - 组合优化: 'usage.md'
+  - 机器学习:
+    - 广义线性回归和判别分析: 'usage.md'
+    - 树方法: 'usage.md'
+    - 工业界各种boost树: 'usage.md'
+    - 特征工程: 'usage.md'
+    - 无监督方法: 'usage.md'
+    - 半监督方法: 'usage.md'
+    - Markov相关模型: 'usage.md'
+    - 再看SequentialDecision: 'usage.md'
+  - 深度学习:
+    - 从MLP 到DeepLearning: 'usage.md'
+    - 广告推荐中的网络结构: 'usage.md'
+    - 从CV看深度学习: 'usage.md'
+    - 从NLP看深度学习: 'usage.md'
