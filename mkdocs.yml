@@ -13,16 +13,36 @@ plugins:
             docstring_style: sphinx
 markdown_extensions:
   - markdown_include.include:
-      base_path: .
-  - admonition
+      base_path: docs
+  - admonition                # 突出显示一些东西，比如 !!!info|bug|tips之类
+  - footnotes                 # 支持脚注[^1]
+  - def_list                  # 支持有序、无序、任务列表
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
   - 因果推断:
-    - 从传统计量看因果推断: 'Causal_Inference/Summary.md'
-    - 从机器学习看因果推断: 'Causal_Inference/Summary.md'
-    - 从强化学习看因果推断: 'Causal_Inference/Summary.md'
-    - 因果推断的复杂问题: 'Causal_Inference/Summary.md'
-    - 业务实践: 'Causal_Inference/Summary.md'
+    - 从传统计量看因果推断: 'CausalInference/Summary.md'
+    - 从机器学习看因果推断: 'usage.md'
+    - 从强化学习看因果推断: 'usage.md'
+    - 因果推断的复杂问题: 'usage.md'
+    - 行业实践: 'usage.md'
+    - 经典论文: 
+      - MetaLearner: 'CausalInference/Paper/MetaLearner.md'
+  - 增长营销:
+    - 传统增长理论: 'usage.md'
+    - 付费增长: 'usage.md'
+    - 免费增长: 'usage.md'
+    - 端内增长和端外增长: 'usage.md'
   - 广告和推荐:
     - 广告系统架构: 'usage.md'
     - 广告预估-精排CTR模型: 'usage.md'
@@ -32,6 +52,10 @@ nav:
     - 广告投放: 'usage.md'
     - 推荐系统架构: 'usage.md'
     - 留存时长模型: 'usage.md'
+    - 经典论文:
+      - YouTuBeDNN: 'AdvertisementRecommendation/Paper/YouTuBe推荐withDeepLearning.md'
+      - CVR预估经典论文DFMER: 'AdvertisementRecommendation/Paper/DFMER.md'
+      - 从数据出发的阿里大促CVR模型: 'AdvertisementRecommendation/Paper/阿里巴巴大促CVR模型.md'
   - 强化学习:
     - SequentialDecision : 'usage.md'
     - 从MDP到值函数模型: 'usage.md'
@@ -46,6 +70,7 @@ nav:
     - 函数和积分: 'usage.md'
     - 概率论和随机过程: 'usage.md'
     - 组合优化: 'usage.md'
+    - 参数估计: 'usage.md'
   - 机器学习:
     - 广义线性回归和判别分析: 'usage.md'
     - 树方法: 'usage.md'
@@ -55,6 +80,7 @@ nav:
     - 半监督方法: 'usage.md'
     - Markov相关模型: 'usage.md'
     - 再看SequentialDecision: 'usage.md'
+    - 常规面试题: 'usage.md'
   - 深度学习:
     - 从MLP 到DeepLearning: 'usage.md'
     - 广告推荐中的网络结构: 'usage.md'
